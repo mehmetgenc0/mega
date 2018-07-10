@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
     let type = args.slice(0).join(' ');
         if (type.length < 1) return message.reply('<:pencil:464801193776906240> Bug İçin Birşey Girmelisin.');
 
-        client.channels.get("295119640219353088").sendMessage( '**Hata/Bug Bildirim/Z Bot** \n__**Kullanici**__ : @' + message.author.tag + '\n__Hata__:**' + type + '**');
+        client.channels.get("295119640219353088").sendMessage( '**Hata/Bug Bildirim/MEGA Bot** \n__**Kullanici**__ : @' + message.author.tag + '\n__Hata__:**' + type + '**');
 
     message.delete();
 };
